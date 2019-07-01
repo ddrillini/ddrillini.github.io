@@ -18,7 +18,11 @@
 
 <!-- https://getbootstrap.com/docs/4.1/components/navbar/ -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">ddrillini</a>
+
+
+  <a class="navbar-brand" href="#">
+    <img src="images/ddrillini-logo.png" height="50" alt="">
+  </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -37,12 +41,12 @@
 
 
     <div>
-        <img src="images/ddrillini-logo.png" alt="ddrillini logo">
         <img src="images/DDR-1.jpg" width="600" height="450" alt="group photo" >
     </div>
 
 
-    <div>
+    <!-- containers are the basic unit of bootstrap -->
+    <div class="container">
         <p>Welcome to the DDRIllini homepage! We are a group of dedicated rhythm game players that make our second home at the Illini Union Rec Room, located in Urbana, IL.</p>
 
         <p>We are also the proud hosts of Rumble in the Prairie, an annual rhythm game tournament that is gaining more participants every year!</p>
@@ -52,6 +56,11 @@
     <br> <a href ="https://www.facebook.com/groups/ddrillini/" target="_blank">We also have a fb page where we post news and events!</a>
 
     <br><a href ="https://gumroad.com/l/ddrillini" target="_blank">We have a step pattern reference poster that you can print out, check it!</a>
+
+    <!-- bootstrap required js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </body>
 
