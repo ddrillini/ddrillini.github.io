@@ -8,6 +8,7 @@
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="custom.css" >
     <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,10 +17,9 @@
 <!--adds styles that compliment the page-->
 <body style="font-family:sans-serif; text-align:center;">
 
+<!-- NAVBAR -->
 <!-- https://getbootstrap.com/docs/4.1/components/navbar/ -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-
   <a class="navbar-brand" href="#">
     <img src="images/ddrillini-logo.png" height="50" alt="">
   </a>
@@ -27,35 +27,35 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="navbar-expand" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="https://github.com/ddrillini">GitHub</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="https://discord.gg/kWk52xj">Discord</a>
       </li>
     </ul>
   </div>
 </nav>
+<!-- END NAVBAR -->
 
-
-    <div>
-        <img src="images/DDR-1.jpg" width="600" height="450" alt="group photo" >
-    </div>
 
 
     <!-- containers are the basic unit of bootstrap -->
-    <div class="container">
-        <p>Welcome to the DDRIllini homepage! We are a group of dedicated rhythm game players that make our second home at the Illini Union Rec Room, located in Urbana, IL.</p>
-
-        <p>We are also the proud hosts of Rumble in the Prairie, an annual rhythm game tournament that is gaining more participants every year!</p>
+    <div class="container pb-5">
+        <img src="images/DDR-1.jpg" class="img-fluid" alt="group photo" >
     </div>
 
 
-    <br> <a href ="https://www.facebook.com/groups/ddrillini/" target="_blank">We also have a fb page where we post news and events!</a>
+    <div class="container pb-5">
+        <p>Welcome to the DDRIllini homepage! We are a group of dedicated rhythm game players that make our second home at the Illini Union Rec Room, located in Urbana, IL.</p>
 
-    <br><a href ="https://gumroad.com/l/ddrillini" target="_blank">We have a step pattern reference poster that you can print out, check it!</a>
+        <p>We also proudly host <a href="rip.ddrillini.club">Rumble in the Prairie</a>, a twice-yearly post-ITG tournament that features singles, doubles, mods, and couples.</p>
+
+        <a href ="poster.html" target="_blank">You might be interested in our <b>step reference poster</b>.</a>
+    </div>
+
 
     <!-- bootstrap required js -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
